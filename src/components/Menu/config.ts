@@ -7,18 +7,14 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
-    label: 'Trade',
-    icon: 'TradeIcon',
-    items: [
-      {
-        label: 'Exchange',
-        href: 'https://exchange.owld.app/#/swap',
-      },
-      {
-        label: 'Liquidity',
-        href: 'https://exchange.owld.app/#/pool',
-      },
-    ],
+    label: 'Exchange',
+    href: '/swap',
+    icon: "ExchangeIcon"
+  },
+  {
+    label: 'Liquidity',
+    href: '/pool',
+    icon: 'LiquidityIcon'
   },
   {
     label: 'Farms',
@@ -26,7 +22,7 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Salty Pools',
+    label: 'Pools',
     icon: 'PoolIcon',
     href: '/pools',
   },
